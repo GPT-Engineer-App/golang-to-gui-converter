@@ -1,4 +1,4 @@
-import { Home, Steam } from "lucide-react";
+import { Home, ShoppingCart } from "lucide-react";
 import Index from "./pages/Index.jsx";
 import SteamItemsPage from "./pages/SteamItemsPage.jsx";
 
@@ -15,7 +15,7 @@ export const navItems = [
   {
     title: "Steam Items",
     to: "/steam-items",
-    icon: <Steam className="h-4 w-4" />,
+    icon: <ShoppingCart className="h-4 w-4" />,
     page: <SteamItemsPage />,
   },
 ];
