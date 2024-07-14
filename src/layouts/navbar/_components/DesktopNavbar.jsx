@@ -12,7 +12,8 @@ export const DesktopNavbar = ({ navItems }) => (
     </NavItem>
     {navItems.map((item) => (
       <NavItem key={item.to} to={item.to}>
-        {item.title}
+        {item.icon}
+        <span className="ml-2">{item.title}</span>
       </NavItem>
     ))}
   </nav>
